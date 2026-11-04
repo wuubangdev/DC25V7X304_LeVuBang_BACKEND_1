@@ -1,15 +1,25 @@
 {
-  "name": "backend1",
-  "version": "1.0.0",
-  "description": "CT449 - Contactbook Backend 1 - Le Vu Bang - DC25V7X304",
-  "main": "server.js",
-  "scripts": {},
-  "keywords": [],
-  "author": "Le Vu Bang <bangdc25v7x304@dttx.ctu.edu.vn>",
-  "license": "ISC",
-  "type": "commonjs",
-  "dependencies": {
-    "cors": "^2.8.6",
-    "express": "^4.22.3"
-  }
+    "name": "backend1",
+    "version": "1.0.0",
+    "description": "CT449 - Contactbook Backend 1 - Le Vu Bang - DC25V7X304",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js",
+        "lint": "eslint .",
+        "format": "prettier --write \"**/*.js\" \"*.json\""
+    },
+    "keywords": [],
+    "author": "Le Vu Bang <bangdc25v7x304@dttx.ctu.edu.vn>",
+    "license": "ISC",
+    "type": "commonjs",
+    "dependencies": {
+        "cors": "^2.8.6",
+        "express": "^4.22.3"
+    },
+    "devDependencies": {
+        "eslint": "^8.57.1",
+        "eslint-config-prettier": "^10.1.8",
+        "prettier": "^3.9.10"
+    }
 }
