@@ -1,0 +1,15 @@
+{
+  "name": "backend1",
+  "version": "1.0.0",
+  "description": "CT449 - Contactbook Backend 1 - Le Vu Bang - DC25V7X304",
+  "main": "server.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "Le Vu Bang <bangdc25v7x304@dttx.ctu.edu.vn>",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^4.22.3"
+  }
+}
